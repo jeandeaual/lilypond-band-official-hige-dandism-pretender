@@ -3,7 +3,7 @@
 \include "official-hige-dandism-pretender-bass.ily"
 
 \score {
-  \unfoldRepeats \articulate \keepWithTag #'video \staves
+  \unfoldRepeats \keepWithTag #'video \staves
   \layout {}
   \midi {}
 }
