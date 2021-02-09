@@ -75,7 +75,6 @@ sectionB = {
   \sectionBSubB |
   \sectionBSubA |
   r8 f8 f\gl d'\3~ 2 |
-  \break
   \repeat unfold 7 bes8 bes\gl |
   \repeat unfold 8 ees\3 |
 }
@@ -169,7 +168,7 @@ song = \relative c, {
   \break
   bes,2.\4~ bes8\3 f'\3 |
   ees1\3 |
-  aes,2.\4 ees'16\3\gl f\3 aes\2 f\3 |
+  aes,2.\4 \override TextScript.extra-offset = #'(0 . -1.35) \after 32 ^\hammer ees'16\3( f\3)  aes\2 f\3 |
   aes1\2 |
   \break
   % Segno 1

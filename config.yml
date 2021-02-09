@@ -10,9 +10,6 @@
   path: baseurl
   value: /lilypond-band-official-hige-dandism-pretender
 - command: update
-  path: url
-  value: https://jeandeaual.github.io
-- command: update
   path: repository
   value: jeandeaual/lilypond-band-official-hige-dandism-pretender
 - command: update
